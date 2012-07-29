@@ -55,7 +55,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle-parent.git</developerConnection>
-		<url>https://github.com/markhobson/entangle-parent.git</url>
+		<url>https://github.com/markhobson/entangle-parent</url>
 	</scm>
 	
 	<issueManagement>
@@ -80,9 +80,6 @@
 					<version>0.7</version>
 					<configuration>
 						<server>github</server>
-						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
-						<repositoryOwner>markhobson</repositoryOwner>
-						<repositoryName>hobsoft-parent</repositoryName>
 						<message>Creating site for ${project.version}</message>
 					</configuration>
 				</plugin>
