@@ -79,7 +79,7 @@
 					<artifactId>site-maven-plugin</artifactId>
 					<version>0.7</version>
 					<configuration>
-						<server>hobsoft-github</server>
+						<server>github</server>
 						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
 						<repositoryOwner>markhobson</repositoryOwner>
 						<repositoryName>hobsoft-parent</repositoryName>
