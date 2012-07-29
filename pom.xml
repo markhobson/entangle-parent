@@ -23,14 +23,14 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.hobsoft.entangle</groupId>
-	<artifactId>entangle</artifactId>
-	<packaging>jar</packaging>
+	<artifactId>entangle-parent</artifactId>
+	<packaging>pom</packaging>
 	<version>0.1.0-SNAPSHOT</version>
 	
-	<name>Entangle</name>
-	<description>A simple data-binding framework for Java.</description>
-	<url>https://github.com/markhobson/entangle</url>
-	<inceptionYear>2011</inceptionYear>
+	<name>Entangle Parent</name>
+	<description>Parent POM for Entangle projects.</description>
+	<url>https://github.com/markhobson/entangle-parent</url>
+	<inceptionYear>2012</inceptionYear>
 	
 	<licenses>
 		<license>
@@ -53,14 +53,14 @@
 	</developers>
 	
 	<scm>
-		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
-		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
-		<url>https://github.com/markhobson/entangle.git</url>
+		<connection>scm:git:git@github.com:markhobson/entangle-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:markhobson/entangle-parent.git</developerConnection>
+		<url>https://github.com/markhobson/entangle-parent.git</url>
 	</scm>
 	
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/markhobson/entangle/issues</url>
+		<url>https://github.com/markhobson/entangle-parent/issues</url>
 	</issueManagement>
 	
 	<build>
@@ -73,7 +73,7 @@
 						<server>entangle-github</server>
 						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
 						<repositoryOwner>markhobson</repositoryOwner>
-						<repositoryName>entangle</repositoryName>
+						<repositoryName>entangle-parent</repositoryName>
 					</configuration>
 				</plugin>
 			</plugins>
