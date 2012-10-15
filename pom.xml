@@ -66,6 +66,12 @@
 		<url>https://github.com/markhobson/entangle-parent/issues</url>
 	</issueManagement>
 	
+	<mailingLists>
+		<mailingList>
+			<archive>https://groups.google.com/d/forum/entangle</archive>
+		</mailingList>
+	</mailingLists>
+	
 	<build>
 		<pluginManagement>
 			<plugins>
