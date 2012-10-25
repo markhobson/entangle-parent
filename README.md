@@ -1,4 +1,4 @@
-entangle-parent
+Entangle Parent
 ===============
 
 Parent POM for Entangle projects.
