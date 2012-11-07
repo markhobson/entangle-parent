@@ -75,8 +75,11 @@
 	</mailingLists>
 	
 	<build>
+	
 		<pluginManagement>
+		
 			<plugins>
+			
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
@@ -85,6 +88,7 @@
 						<target>1.5</target>
 					</configuration>
 				</plugin>
+				
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
@@ -93,6 +97,7 @@
 						<skipDeploy>true</skipDeploy>
 					</configuration>
 				</plugin>
+				
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-scm-publish-plugin</artifactId>
@@ -100,9 +105,13 @@
 						<scmBranch>gh-pages</scmBranch>
 					</configuration>
 				</plugin>
+				
 			</plugins>
+			
 		</pluginManagement>
+		
 		<plugins>
+		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
@@ -116,6 +125,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-publish-plugin</artifactId>
@@ -129,7 +139,9 @@
 					</execution>
 				</executions>
 			</plugin>
+			
 		</plugins>
+		
 	</build>
 	
 	<reporting>
